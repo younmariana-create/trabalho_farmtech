@@ -1,157 +1,198 @@
 # FIAP - Faculdade de Informática e Administração Paulista
 
 <p align="center">
-<a href= "https://www.fiap.com.br/"><img src="assets/logo-fiap.png" alt="FIAP - Faculdade de Informática e Admnistração Paulista" border="0" width=40% height=40%></a>
+<a href="https://www.fiap.com.br/">
+<img src="assets/logo-fiap.png" alt="FIAP - Faculdade de Informática e Administração Paulista" border="0" width=40% height=40%>
+</a>
 </p>
 
 <br>
 
-## FarmTech Solutions - Análise de Rendimento Agrícola com Machine Learning
+# Análise de Rendimento Agrícola com Machine Learning
 
-## Grupo 32
-
----
+## FarmTech - Predição de Safras Agrícolas
 
 ## 👨‍🎓 Integrantes
 
-* Henrique Honorio da Silva – RM 
-* João Victor Matos de Paiva – RM 
-* Luiz Frederico Nunes Campêlo – RM 
-* Manoella Menezes Weiser – RM 
-* Mariana Youn – RM 568548
+- Henrique Honorio da Silva – RM XXXXX  
+- João Victor Matos de Paiva – RM XXXXX  
+- Luiz Frederico Nunes Campêlo – RM XXXXX  
+- Manoella Menezes Weiser – RM XXXXX  
+- Mariana Carvalho Youn – RM 568548  
 
 ---
 
 ## 👩‍🏫 Professores
 
 ### Tutor(a)
-
-Sabrina Otoni
+- Professor(a) responsável pela disciplina
 
 ### Coordenador(a)
-
-André Godoi Chiovato
+- Coordenação do curso de Inteligência Artificial / Machine Learning - FIAP
 
 ---
 
 # 📜 Descrição
 
-Este projeto foi desenvolvido como parte das atividades da Fase 5 do curso da FIAP, com foco na aplicação de técnicas de Machine Learning em um cenário de agronegócio.
+Este projeto foi desenvolvido como parte da atividade de **Problem Based Learning (PBL)** da FIAP, com foco na aplicação de técnicas de **Machine Learning para análise de dados agrícolas**.
 
-A atividade simula um contexto profissional no qual a empresa **FarmTech Solutions** presta serviços de Inteligência Artificial para uma fazenda de médio porte com aproximadamente 200 hectares de área produtiva. O objetivo da empresa é utilizar dados ambientais e climáticos para compreender melhor as condições que influenciam a produtividade agrícola e, a partir disso, auxiliar na tomada de decisões estratégicas.
+O objetivo principal do projeto é analisar dados climáticos e ambientais para identificar padrões que influenciam o rendimento das plantações e desenvolver modelos preditivos capazes de estimar o rendimento de uma safra agrícola com base em variáveis climáticas.
 
-Para essa análise foi utilizada uma base de dados contendo informações relacionadas às condições climáticas e ao tipo de cultura cultivada, incluindo variáveis como precipitação, temperatura e níveis de umidade. Além dessas variáveis ambientais, o conjunto de dados também apresenta o rendimento das culturas agrícolas medido em toneladas por hectare.
+Para atingir esse objetivo, foi utilizado um dataset contendo informações relevantes como:
 
-Com base nesse dataset, foi realizada inicialmente uma **análise exploratória dos dados**, com o objetivo de compreender a estrutura da base, identificar possíveis padrões e verificar a existência de valores discrepantes (outliers).
+- Precipitação
+- Umidade específica
+- Umidade relativa
+- Temperatura
+- Rendimento agrícola (Yield)
 
-Posteriormente, foram aplicadas técnicas de **Machine Learning**, incluindo métodos de clusterização para identificar tendências de produtividade entre diferentes culturas e condições climáticas.
+O projeto foi estruturado em diferentes etapas típicas de um fluxo de trabalho de **Machine Learning**, incluindo:
 
-Na etapa final do projeto foram desenvolvidos **modelos preditivos**, utilizando diferentes algoritmos de Machine Learning. Esses modelos têm como objetivo prever o rendimento das safras agrícolas a partir das condições ambientais observadas.
+### 1. Análise Exploratória de Dados (EDA)
 
-Todo o processo de análise, preparação dos dados, treinamento dos modelos e avaliação de desempenho foi documentado no notebook Jupyter presente neste repositório.
+Inicialmente foi realizada uma exploração da base de dados para compreender suas características, estrutura e distribuição das variáveis. Foram utilizados métodos como:
+
+- `df.info()`
+- `df.describe()`
+- análise de distribuição das variáveis
+- visualização gráfica
+
+Essa etapa permitiu entender melhor os dados e identificar possíveis padrões iniciais.
+
+### 2. Clusterização
+
+Foi aplicada uma técnica de **clusterização utilizando o algoritmo K-Means**, com o objetivo de identificar agrupamentos naturais dentro dos dados.
+
+A clusterização permitiu observar possíveis padrões entre variáveis climáticas e o rendimento agrícola, ajudando a entender cenários semelhantes dentro da base de dados.
+
+### 3. Identificação de Outliers
+
+Foi realizada a detecção de **valores discrepantes (outliers)** utilizando gráficos como **boxplots**, permitindo identificar possíveis observações extremas que podem influenciar o desempenho dos modelos preditivos.
+
+A identificação desses valores auxilia na compreensão da variabilidade presente no rendimento agrícola.
+
+### 4. Modelagem Preditiva
+
+Foram desenvolvidos **cinco modelos de regressão supervisionada**, com o objetivo de prever o rendimento agrícola (Yield) com base nas variáveis climáticas disponíveis.
+
+Os modelos implementados foram:
+
+- **Linear Regression**
+- **Decision Tree Regressor**
+- **Random Forest Regressor**
+- **K-Nearest Neighbors (KNN)**
+- **Support Vector Regression (SVR)**
+
+Cada modelo foi treinado utilizando os dados de treinamento e posteriormente avaliado com dados de teste.
+
+### 5. Avaliação dos Modelos
+
+Os modelos foram avaliados utilizando métricas comuns em problemas de regressão, como:
+
+- **Mean Squared Error (MSE)**
+- **R² Score**
+
+Essas métricas permitiram comparar o desempenho dos diferentes algoritmos e entender qual modelo apresentou melhor capacidade preditiva.
+
+Os resultados indicaram que os modelos apresentaram desempenho limitado, sugerindo que as variáveis disponíveis podem não ser suficientes para explicar completamente a variação do rendimento das safras.
 
 ---
 
 # 📁 Estrutura de Pastas
 
-Dentre os arquivos e pastas presentes na raiz do projeto, destacam-se:
+A estrutura do projeto está organizada da seguinte forma:
 
-### data
+TRABALHO_FARMTECH
+│
+├── assets
+│   └── logo-fiap.png
+│
+├── data
+│   └── crop_yield.csv
+│
+├── notebook
+│   └── MarianaYoun_rm568548_pbl_fase4.ipynb
+│
+└── README.md
 
-Contém o dataset utilizado no projeto, incluindo o arquivo:
 
-* `crop_yield.csv` → base de dados com informações climáticas e rendimento das culturas.
+Onde:
 
-### notebook
-
-Contém o notebook Jupyter responsável pela implementação da análise de dados e dos modelos de Machine Learning:
-
-* `MarianaYoun_rm568548_pbl_fase4.ipynb`
-
-Neste notebook estão presentes:
-
-* análise exploratória dos dados
-* visualizações e gráficos
-* preparação dos dados para modelagem
-* treinamento dos modelos de Machine Learning
-* avaliação dos resultados obtidos
-
-### README.md
-
-Arquivo responsável por apresentar a documentação geral do projeto e orientar o leitor sobre o funcionamento da solução.
+- **assets**: contém arquivos visuais utilizados no repositório, como imagens.
+- **dataset (.csv)**: base de dados utilizada na análise.
+- **notebook (.ipynb)**: notebook Jupyter contendo toda a análise, modelagem e resultados.
 
 ---
 
-# 🔧 Como executar o projeto
+# 🔧 Como Executar o Projeto
 
-Para executar este projeto em sua máquina, siga os passos abaixo.
+Para executar o projeto localmente, siga os passos abaixo.
 
-### 1 – Clonar o repositório
+### 1. Pré-requisitos
 
-Clone o repositório do GitHub para sua máquina:
+Certifique-se de possuir instalado:
 
-git clone LINK_DO_REPOSITORIO
+- Python 3.x
+- Jupyter Notebook ou VS Code
+- Bibliotecas Python:
 
-Após o download, acesse a pasta do projeto.
+pandas
+numpy
+matplotlib
+seaborn
+scikit-learn
 
----
 
-### 2 – Instalar as bibliotecas necessárias
-
-O projeto foi desenvolvido utilizando a linguagem **Python** e bibliotecas comuns de análise de dados e Machine Learning.
-
-Principais bibliotecas utilizadas:
-
-* pandas (manipulação de dados)
-* numpy (operações numéricas)
-* matplotlib (visualização de dados)
-* seaborn (visualização estatística)
-* scikit-learn (algoritmos de Machine Learning)
-
-Caso necessário, instale as dependências utilizando:
+Para instalar as bibliotecas necessárias:
 
 pip install pandas numpy matplotlib seaborn scikit-learn
 
 ---
 
-### 3 – Executar o notebook
+### 2. Executar o Notebook
 
-Abra o arquivo localizado em:
+1. Clone o repositório:
 
-notebook/MarianaYoun_rm568548_pbl_fase4.ipynb
+git clone https://github.com/seu-usuario/seu-repositorio.git
 
-O notebook pode ser executado utilizando:
 
-* Jupyter Notebook
-* Jupyter Lab
-* Visual Studio Code
+2. Abra a pasta do projeto.
 
-Após abrir o notebook, execute todas as células para reproduzir a análise completa.
+3. Execute o notebook:
+
+MarianaYoun_rm568548_pbl_fase4.ipynb
+
+
+4. Execute todas as células do notebook para reproduzir a análise.
 
 ---
 
 # 🎥 Vídeo de Demonstração
 
-Um vídeo demonstrando o funcionamento do projeto foi gravado e disponibilizado no YouTube como **não listado**.
+Um vídeo demonstrando o funcionamento do projeto foi disponibilizado no YouTube como **não listado**.
 
 Link do vídeo:
 
-(INSERIR LINK DO VÍDEO AQUI)
+***
 
 ---
 
 # 🗃 Histórico de Lançamentos
 
-### 0.1.0 – Entrega inicial do projeto
-
-* Estrutura inicial do repositório
-* Upload do dataset
-* Implementação do notebook de análise e modelagem
+* 0.1.0 - Entrega inicial do projeto
+    * Implementação da análise exploratória
+    * Aplicação de clusterização
+    * Identificação de outliers
+    * Desenvolvimento dos modelos de Machine Learning
+    * Avaliação comparativa dos modelos
 
 ---
 
 # 📋 Licença
 
-Este projeto segue o modelo de repositório acadêmico da FIAP.
+<img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/cc.svg">
+<img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/by.svg">
 
-MODELO GIT FIAP por FIAP é licenciado sob **Attribution 4.0 International**.
+MODELO GIT FIAP por FIAP está licenciado sob **Attribution 4.0 International**.
+
+
