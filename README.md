@@ -122,10 +122,12 @@ TRABALHO_FARMTECH
 ├── imagem
 │   ├── conf_sp.png
 │   ├── conf_virginia.png
-│   └── comparacao.png
-│
+│   ├── comparacao.png
+│   └── comparacao2.png
+│ 
+│ 
 ├── notebook
-│   └── MarianaYoun_rm568548_pbl_fase4.ipynb
+│   └── MarianaYoun_rm568548_pbl_fase5.ipynb
 │
 └── README.md
 
@@ -228,6 +230,9 @@ Custo estimado mensal: **9.78 USD**
 
 ![Comparação AWS](imagem/comparação.png)
 
+---
+
+![Comparação AWS](imagem/comparação2.png)
 
 ### Qual a solução mais barata?
 
