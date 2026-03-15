@@ -14,10 +14,10 @@
 
 ## 👨‍🎓 Integrantes
 
-- Henrique Honorio da Silva – RM XXXXX  
+- Henrique Honorio da Silva – RM 567102  
 - João Victor Matos de Paiva – RM XXXXX  
 - Luiz Frederico Nunes Campêlo – RM XXXXX  
-- Manoella Menezes Weiser – RM XXXXX  
+- Manoella Menezes Weiser – RM 567531  
 - Mariana Carvalho Youn – RM 568548  
 
 ---
@@ -243,7 +243,7 @@ Isso ocorre porque podem existir **restrições legais relacionadas ao armazenam
 
 # 🎥 Vídeo de Demonstração
 
-Um vídeo demonstrando o funcionamento do projeto foi disponibilizado no YouTube como **não listado**.
+Vídeos demonstrando o funcionamento do projeto foi disponibilizado no YouTube como **não listado**.
 
 ### Entrega 1 – Machine Learning
 Link do vídeo:
@@ -256,11 +256,17 @@ Link do vídeo:
 # 🗃 Histórico de Lançamentos
 
 * 0.1.0 - Entrega inicial do projeto
-    * Implementação da análise exploratória
-    * Aplicação de clusterização
+    * Implementação da análise exploratória de dados (EDA)
+    * Aplicação de clusterização com K-Means
     * Identificação de outliers
     * Desenvolvimento dos modelos de Machine Learning
     * Avaliação comparativa dos modelos
+
+* 0.2.0 - Planejamento de infraestrutura em nuvem
+    * Estimativa de custos utilizando AWS Pricing Calculator
+    * Simulação de instância EC2 para hospedagem da API
+    * Comparação de custos entre as regiões São Paulo e N. Virgínia
+    * Análise da melhor região considerando custo, latência e aspectos legais
 
 ---
 
