@@ -53,7 +53,7 @@ Para a análise foi utilizado um dataset contendo variáveis como:
 
 ---
 
-## 📊 Entrega 1 – Análise de Dados e Modelagem de Machine Learning
+# 📊 Entrega 1 – Análise de Dados e Modelagem de Machine Learning
 
 O projeto foi estruturado em diferentes etapas típicas de um fluxo de trabalho de **Machine Learning**, incluindo:
 
@@ -181,7 +181,7 @@ MarianaYoun_rm568548_pbl_fase4.ipynb
 
 ---
 
-## ☁️ Entrega 2 – Estimativa de Custos na AWS
+# ☁️ Entrega 2 – Estimativa de Custos na AWS
 
 Além da análise de Machine Learning apresentada anteriormente, o projeto também inclui uma etapa de planejamento de infraestrutura em nuvem.
 
@@ -195,7 +195,7 @@ Foram comparadas duas regiões da AWS:
 Essa comparação permitiu avaliar qual região apresenta menor custo e discutir qual seria a melhor escolha considerando fatores técnicos e legais.
 
 
-### Configuração da Instância
+## Configuração da Instância
 
 Para realizar a estimativa foi utilizada uma instância **Amazon EC2** com as seguintes características:
 
