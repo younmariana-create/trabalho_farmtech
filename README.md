@@ -195,4 +195,15 @@ Link do vídeo:
 
 MODELO GIT FIAP por FIAP está licenciado sob **Attribution 4.0 International**.
 
+## 📋 Licença
+
+<p>
+<img style="height:22px;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/cc.svg">
+<img style="height:22px;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/by.svg">
+
+MODELO GIT FIAP por FIAP está licenciado sob
+<a href="http://creativecommons.org/licenses/by/4.0/">Attribution 4.0 International</a>.
+</p>
+
+
 
