@@ -195,7 +195,7 @@ Foram comparadas duas regiões da AWS:
 Essa comparação permitiu avaliar qual região apresenta menor custo e discutir qual seria a melhor escolha considerando fatores técnicos e legais.
 
 
-## Configuração da Instância
+### Configuração da Instância
 
 Para realizar a estimativa foi utilizada uma instância **Amazon EC2** com as seguintes características:
 
