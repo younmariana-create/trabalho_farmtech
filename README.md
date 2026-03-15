@@ -230,7 +230,6 @@ Custo estimado mensal: **9.78 USD**
 
 ![Comparação AWS](imagem/comparação.png)
 
----
 
 ![Comparação AWS](imagem/comparação2.png)
 
