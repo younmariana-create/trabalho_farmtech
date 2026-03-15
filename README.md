@@ -162,7 +162,6 @@ Para instalar as bibliotecas necessárias:
 
 pip install pandas numpy matplotlib seaborn scikit-learn
 
----
 
 ### 2. Executar o Notebook
 
