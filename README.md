@@ -25,10 +25,10 @@
 ## 👩‍🏫 Professores
 
 ### Tutor(a)
-- Professor(a) responsável pela disciplina
+- Sabrina Otoni
 
 ### Coordenador(a)
-- Coordenação do curso de Inteligência Artificial / Machine Learning - FIAP
+- André Godoi Chiovato
 
 ---
 
@@ -190,8 +190,8 @@ Link do vídeo:
 
 # 📋 Licença
 
-<img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/cc.svg">
-<img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/by.svg">
+<img style="height:15px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/cc.svg">
+<img style="height:15px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/by.svg">
 
 MODELO GIT FIAP por FIAP está licenciado sob **Attribution 4.0 International**.
 
