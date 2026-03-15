@@ -190,13 +190,6 @@ Link do vídeo:
 
 # 📋 Licença
 
-<img style="height:22px!important;margin-left:3px;" src="https://mirrors.creativecommons.org/presskit/icons/cc.svg">
-<img style="height:22px!important;margin-left:3px;" src="https://mirrors.creativecommons.org/presskit/icons/by.svg">
-
-MODELO GIT FIAP por FIAP está licenciado sob **Attribution 4.0 International**.
-
-## 📋 Licença
-
 <p>
 <img style="height:22px;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/cc.svg">
 <img style="height:22px;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/by.svg">
