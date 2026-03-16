@@ -15,8 +15,8 @@
 ## 👨‍🎓 Integrantes
 
 - Henrique Honorio da Silva – RM 567102  
-- João Victor Matos de Paiva – RM XXXXX  
-- Luiz Frederico Nunes Campêlo – RM XXXXX  
+- João Victor Matos de Paiva – RM 568345  
+- Luiz Frederico Nunes Campêlo – RM 567319  
 - Manoella Menezes Weiser – RM 567531  
 - Mariana Carvalho Youn – RM 568548  
 
