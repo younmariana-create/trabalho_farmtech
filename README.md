@@ -176,7 +176,7 @@ git clone https://github.com/seu-usuario/seu-repositorio.git
 
 3. Execute o notebook:
 
-MarianaYoun_rm568548_pbl_fase4.ipynb
+MarianaYoun_rm568548_pbl_fase5.ipynb
 
 
 4. Execute todas as células do notebook para reproduzir a análise.
