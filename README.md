@@ -250,10 +250,10 @@ Isso ocorre porque podem existir **restrições legais relacionadas ao armazenam
 Vídeos demonstrando o funcionamento do projeto foi disponibilizado no YouTube como **não listado**.
 
 ### Entrega 1 – Machine Learning
-Link do vídeo:
+Link do vídeo: https://youtu.be/UIwVe00JND0
 
 ### Entrega 2 – Estimativa de Custos AWS
-Link do vídeo:
+Link do vídeo: https://youtu.be/gIFdIIEfbaw
 
 ---
 
